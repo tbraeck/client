@@ -1,9 +1,9 @@
 import React, { useContext } from 'react'; 
-import NavBar from './NavBar'
-import NavigationButtons from './NavigationButtons';
+import NavBar from './NavBar.js'
+import NavigationButtons from './NavigationButtons.js';
 import ChatComponent from "../ChatComponent.js";
 
-import { UserContext } from '../context/UserContext'
+import { UserContext } from '../context/UserContext.js'
 
 const Header = ({handleLogout, userComments, setUserComments}) => {
   const {user, setUser} = useContext(UserContext);
