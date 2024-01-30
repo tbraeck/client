@@ -16,6 +16,8 @@ import FeatureCard from "./FeatureCard.js";
 import NewPost from "./NewPost.js";
 import Login from "./login-components/Login.js";
 import SearchResults from "./general/SearchResults.js";
+import axios from 'axios';
+
 
 const App = () => {
   
